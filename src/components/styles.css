@@ -1,0 +1,62 @@
+/*Estilos do Cabeçalho*/
+.pageHeader {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    min-width: 350px;
+    height: fit-content;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: inherit;
+    border-color: rgb(5, 54, 87);
+    background-color: white;
+    opacity: 0.9;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*Estilos dos Cards de Fruta*/
+.itemListContainer {
+    position:relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    height: 220px;
+    width: 370px;
+    margin: 5px;
+    padding: 5px;
+    opacity: 0.9;
+}
+
+.itemListContainer:hover{top:-5px;box-shadow:0 2px 2px #666}   
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.list {
+    margin: 0;
+    padding: 2px;
+    padding-left: 8px;
+    list-style-type: none;
+}
+
+.cardTitle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cardContent {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.test {
+    word-wrap: break-word;
+}
